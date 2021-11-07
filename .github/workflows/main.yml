@@ -1,9 +1,9 @@
 name: CI-CD
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "elasticbeanstalk-us-east-2-995895759214"
-  EB_APPLICATION_NAME       : "MyFlask"
-  EB_ENVIRONMENT_NAME       : "MyFlask-env"
-  DEPLOY_PACKAGE_NAME       : "flask-app-${{ github.sha }}.zip"
+  EB_APPLICATION_NAME       : "Sipring"
+  EB_ENVIRONMENT_NAME       : "Sipring-env"
+  DEPLOY_PACKAGE_NAME       : "Sipring-app-${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-2"
 
 on: 
